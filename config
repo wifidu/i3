@@ -30,7 +30,7 @@ font pango:monospace 15
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec gnome-terminal
 
 bindsym $mod+c exec google-chrome
 bindsym $mod+m exec netease-cloud-music
@@ -73,7 +73,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 bindsym $mod+n exec nautilus
 
-bindsym $mod+b exec compton ; exec feh --bg-fill /home/du/图片/my-wallpaper/wallhaven-731pqy.jpg
+bindsym $mod+b exec compton ; exec feh --bg-fill /home/du/图片/壁纸/821132530f3b677f42eed19309c2a1ab.jpg
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -221,7 +221,7 @@ bar {
     i3bar_command i3bar --transparency
     height 30
     #禁止systemtray
-    tray_output none
+    # tray_output none
     # 显示位置top/bottom
     position top
     # 是否隐藏
