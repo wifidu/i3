@@ -30,7 +30,7 @@ font pango:monospace 15
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec alacritty
 
 bindsym $mod+c exec google-chrome
 bindsym $mod+m exec netease-cloud-music
